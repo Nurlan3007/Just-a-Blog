@@ -1,0 +1,63 @@
+.photo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+}
+
+
+.comment{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#text{
+	font-size: 17px;
+	border:0;
+	background: #ffff;
+	padding: 0px 40px 0px 16px;
+	border-radius: 20px;
+	height: 40px;
+	transition: all 0.8s;
+	outline: none;
+}
+
+#text::placeholder{font-size: 14px; font-family: Comic Sans MS, Comic Sans, cursive;}
+
+#text:focus{
+	outline: 2px solid #ccebff;
+}
+
+#send{
+	outline: none;
+	cursor: pointer;
+	border:none;
+	background:#2A5885;
+	margin-top: 5px;
+	font-size:14px;
+	padding: 7px;
+	border-radius: 5px;
+	align-self:flex-end;
+	width: 100px;
+	color:#fff;
+	font-family: Comic Sans MS, Comic Sans, cursive
+	transition:all 0.4s;
+}
+
+#send:hover{
+	background: #4b77a3;
+}
+
+.border{
+	margin:3px 0 3px 0;
+	border:2px solid gray;
+	background-color: gray;
+	opacity: 0.1;
+}
+
+.value{
+	display: flex;
+	flex-direction: column-reverse;
+}
+

@@ -1,0 +1,66 @@
+.profile nav ol li{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: 400;
+	text-decoration: none;
+	color:#2A5885;
+	margin-top: 10px;
+	font-size: 20px;
+	list-style: none;
+}
+
+.profile nav ul li a{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: 400;
+	text-decoration: none;
+	color:blue;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.profile nav ol li a span{
+	color:#000;
+}
+
+.content{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*ARTICALS*/
+.main_image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mini_images{
+	border-top:1px solid gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+
+.mini_images img{
+	max-width: 90%;
+	height: auto;	
+}
+
+.delete_artical img{
+	width: 20px;
+}
+
+.delete_artical p{
+	font-size:14px;
+	color:#fff;
+	padding: 5px;
+	background:#b0b0b0; 
+	display: none;
+}
+
+
+
+
+

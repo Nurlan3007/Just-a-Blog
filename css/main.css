@@ -1,0 +1,179 @@
+*:before,*:after,*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	background:  #f5f5f0;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+a{text-decoration: none;}
+
+.container{
+	max-width: 1270px;
+	width: 100%;
+	margin:0 auto;
+}
+
+/*content*/
+.content{
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+/*articales*/
+.article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.articale_values{
+	max-width: 500px;
+	margin:30px auto;
+	box-shadow: 15px 15px 15px rgba(75,75,75,.1);
+}
+
+.articale_info{
+	padding: 18px;
+}
+
+.articale_values img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.main_image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mini_images{
+	border-top:1px solid gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+
+.mini_images img{
+	max-width: 95%;
+	height: 100px;	
+}
+
+.delete_artical img{
+	width: 20px;
+}
+
+.delete_artical p{
+	font-size:14px;
+	color:#fff;
+	padding: 5px;
+	background:#b0b0b0; 
+	display: none;
+}
+
+
+
+.articale_values .name_artical{
+	margin-bottom: 10px;
+}
+
+.articale_values .name_artical a{
+	color:inherit;
+	font-size: 27px;
+	line-height: 1;
+	margin-bottom: 10px;
+	transition:all 0.7s;
+}
+
+.articale_values .name_artical a:hover{
+	text-decoration:underline;
+
+}
+
+.articale_values .text{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.articale_values .autor h5{
+	color:gray;
+	font-size: 14px;
+}
+
+.artical_footer{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.menu_right_part_footer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.rating_plus{
+	font-size:22px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color:#db355a;
+	cursor: pointer;
+	margin-bottom: 4px;
+}
+
+
+.rating_plus img{
+	width: 20px;
+	margin:0;
+	margin-right:1px;
+}
+
+.menu_right_part_footer .menu{
+	width:20px;
+	margin:0;
+	cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	cursor: pointer;
+   background:none;
+   border: none;
+   padding:0 10px 0 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}

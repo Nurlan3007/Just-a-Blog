@@ -1,0 +1,39 @@
+
+.menu nav ul{
+	list-style: none;
+}
+
+.menu {
+	margin-top:30px;
+	
+}
+
+.menu .main_menu ul li a{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: 400;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color:#2A5885;
+	width: 179px;
+	margin-top: 10px;
+	transition: 0.9s all;
+}
+
+.menu .main_menu ul li{
+	position: relative;
+}
+
+.menu img{
+	width:25px;
+	position: absolute;
+	right:10px;
+	top:50%;
+	margin-top:-10px;
+	cursor: pointer;
+}
+
+.menu .main_menu li a:hover{
+	background:  #ebebe0;
+	padding: 10px 0px 10px 14px;
+}
